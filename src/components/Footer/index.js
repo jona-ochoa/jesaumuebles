@@ -35,45 +35,40 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinksItems>
               <FooterLinkTitle to='/'>Servicios</FooterLinkTitle>
-              <FooterLink to='/signin'>Sitios y Plataformas web</FooterLink>
-              <FooterLink to='/signin'>UX / UI</FooterLink>
-              <FooterLink to='/signin'>Posicionamiento web</FooterLink>
-              <FooterLink to='/signin'>Mobile & Web Apps</FooterLink>
+              <FooterLink to='/signin'>Muebles</FooterLink>
+              <FooterLink to='/signin'>Colchones</FooterLink>
+              <FooterLink to='/signin'>Sillas Gamer</FooterLink>
+              <FooterLink to='/signin'>Electros</FooterLink>
+            </FooterLinksItems>
+            <FooterLinksItems>
+              <FooterLinkTitle>Ciudades</FooterLinkTitle>
+              <FooterLink to='/signin'>Villa del Totoral</FooterLink>
+              <FooterLink to='/signin'>Dean Funes</FooterLink>
+              <FooterLink to='/signin'>Chalasea</FooterLink>
+              <FooterLink to='/signin'>Las Peñas</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
               <FooterLinkTitle>Contacto</FooterLinkTitle>
-              <FooterLink to='/signin'>Telefono :</FooterLink>
-              <FooterLink to='/signin'>+54-3525-619061</FooterLink>
-              <FooterLink to='/signin'>Email : </FooterLink>
-              <FooterLink to='/signin'>jonatan.c.ochoa@gmail.com</FooterLink>
-            </FooterLinksItems>
-            <FooterLinksItems>
-              <FooterLinkTitle>Redes Sociales</FooterLinkTitle>
-              <FooterLink to='/signin'>FAcebook</FooterLink>
-              <FooterLink to='/signin'>Intagram</FooterLink>
-              <FooterLink to='/signin'>Github</FooterLink>
-              <FooterLink to='/signin'>Linkedin</FooterLink>
-            </FooterLinksItems>
-            <FooterLinksItems>
-              <FooterLinkTitle>Contacto</FooterLinkTitle>
-              <FooterLink to='/signin'>Telefono :</FooterLink>
-              <FooterLink to='/signin'>+54-3525-619061</FooterLink>
-              <FooterLink to='/signin'>Email : </FooterLink>
-              <FooterLink to='/signin'>jonatan.c.ochoa@gmail.com</FooterLink>
+              <FooterLink to='/signin'>Telefono: +54-3525-619061</FooterLink>
+              
+              <FooterLink to='/signin'>Email: jesaumuebles@gmail.com</FooterLink>
+              
+              <FooterLink to='/signin'>Soporte: soporte.jesau@gmail.com</FooterLink>
+              
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              jesauboStore
+              jesaumuebles
             </SocialLogo>
             <WebsiteRight>
-              © {new Date().getFullYear()} jesauboStore
+              © {new Date().getFullYear()} jesaumuebles
             </WebsiteRight>
 
             <SocialIconsLink
-              href="mailto:jonatan.c.ochoa@gmail.com"
+              href="mailto:jesaumuebles@gmail.com"
               target="_blank"
               aria-label="Email"
             >

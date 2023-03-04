@@ -56,7 +56,7 @@ list-style: none;
 transition: 0.2s ease-in-out;
 color:#fff;
 &:hover {
-	color: #2f5;
+	color: #ff6961;
 	transition: 0.2s ease-in-out;
 }
 `
@@ -67,7 +67,7 @@ justify-content: center;
 
 export const SidebarRoute = styled(LinkR)`
 border-radius: 30px;
-background: #01bf71; 
+background: #ff6961; 
 white-space:nowrap;
 padding: 16px 64px;
 color: #010606; 

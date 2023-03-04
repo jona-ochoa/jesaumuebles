@@ -29,14 +29,12 @@ const HeroSection = () => {
         />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Muebles para el Hogar</HeroH1>
-        <HeroP>Presiona para inscribirte y comprar en linea</HeroP>
+        <HeroH1>Te brindamos la mejor calidad en <span style={{color:"#ff6961"}}>muebles y colchones</span> a un buen precio y con envios gratis.</HeroH1>
+        <HeroP>Presiona para mas información detallada de nuestras ventas en línea, ofrecemos armados y envios</HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"
-            primary={true}
             big={true}
-            dark={true}
             fontBig={true}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
@@ -46,7 +44,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Nosotros {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

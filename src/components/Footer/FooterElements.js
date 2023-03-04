@@ -52,7 +52,7 @@ export const FooterLinksItems = styled.div`
 export const FooterLinkTitle = styled.h1`
 font-size: 14px;
 margin-bottom:16px;
-color: #01bf71;
+color: #ff6961;
 cursor: pointer;
 &:hover{
     color:#fff;
@@ -67,7 +67,7 @@ margin-bottom:0.5rem;
 cursor: pointer;
 font-size: 14px;
 &:hover{
-    color:#01bf71;
+    color:#ff6961;
     transition: 0.3s ease-out;
 }
 `;
@@ -89,7 +89,7 @@ margin: 40px auto 0 auto;
 `
 
 export const SocialLogo = styled(LinkR)`
-color:#01bf71;
+color:#ff6961;
 justify-self: start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -116,7 +116,7 @@ export const SocialIconsLink = styled.a`
 color:#fff;
 font-size: 24px;
 &:hover {
-	color: #01bf71;
+	color: #ff6961;
 	transition:0.3s ease-out;
 }
 @media screen and (max-width: 820px) {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-  background: ${({ lightBg }) => (lightBg ? "#909090" : "#101522")};
+  background: ${({ lightBg }) => (lightBg ? "#ff6" : "#101522")};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: ${({ lightTextTop }) => (lightTextTop ? "#2f5" : "#000")};
+  color: ${({ lightTextTop }) => (lightTextTop ? "#ff6961" : "#000")};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;

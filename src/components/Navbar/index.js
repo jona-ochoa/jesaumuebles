@@ -9,6 +9,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  SPANLOGO
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
@@ -40,6 +41,7 @@ const Navbar = ({ toogle }) => {
           <NavbarContainer>
             <NavLogo to="/" onClick={toogleHome}>
               JM
+              <SPANLOGO>JESAUMUEBLES</SPANLOGO>
             </NavLogo>
             <MobileIcon onClick={toogle}>
               <FaBars />
@@ -54,7 +56,7 @@ const Navbar = ({ toogle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  Productos
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -66,7 +68,7 @@ const Navbar = ({ toogle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Discover
+                  Descubrir
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -78,7 +80,7 @@ const Navbar = ({ toogle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  Servicios
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -90,12 +92,12 @@ const Navbar = ({ toogle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Sign Up
+                  Nosotros
                 </NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin">Contacto</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
