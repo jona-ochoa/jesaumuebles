@@ -2,15 +2,19 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   position: relative;
-  height: 100vh;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #000;
+  overflow: hidden;
+  @media screen and (max-width: 678px) {
+    height: 800px;
+  }
 
   .slide {
     position: relative;
-    height: 100vh;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +36,13 @@ export const Section = styled.section`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @media screen and (max-width: 678px) {
+      right: 22px;
+  }
+    @media screen and (max-width: 480px) {
+      left: 12px;
+  }
   }
   .right-arrow {
     position: absolute;
@@ -42,6 +53,13 @@ export const Section = styled.section`
     z-index: 10;
     cursor: pointer;
     user-select: none;
+
+    @media screen and (max-width: 678px) {
+      right: 22px;
+  }
+    @media screen and (max-width: 480px) {
+      right: 12px;
+  }
   }
 `;
 
@@ -50,4 +68,13 @@ export const Image = styled.img`
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
+
+  @media screen and (max-width: 678px) {
+    max-width: 400px;
+    max-height: 600px;
+  }
+  @media screen and (max-width: 480px) {
+    max-width: 300px;
+    max-height: 500px;
+  }
 `;

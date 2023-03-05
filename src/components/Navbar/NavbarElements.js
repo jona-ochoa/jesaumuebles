@@ -103,22 +103,20 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 10px;
-  background: #ff6;
+  background: #77ecb6;
   color: #010606;
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
   font-weight: bold;
-  border: 1px solid #fff;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #77ecb6;
-    color: #FFF;
-    border: 2px solid #010606;
+    background: #ff6;
+    color: #Ff6961;
   }
 `;
 

@@ -66,7 +66,7 @@ justify-content: center;
 `
 
 export const SidebarRoute = styled(LinkR)`
-border-radius: 30px;
+border-radius: 10px;
 background: #ff6961; 
 white-space:nowrap;
 padding: 16px 64px;
@@ -78,7 +78,7 @@ cursor: pointer;
 transition: 0.2s ease-in-out;
 text-decoration:none;
 &:hover {
-	background: #fff;
+	background: #ff6;
 	color: #010606; 
 	transition: 0.2s ease-in-out;
 }
