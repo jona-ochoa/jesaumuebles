@@ -18,7 +18,7 @@ const HeroSection = () => {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='home'>
+    <HeroContainer id="home">
       <HeroBg>
         <VideoBg
           autoPlay
@@ -29,8 +29,15 @@ const HeroSection = () => {
         />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Te brindamos la mejor calidad en <span style={{color:"#ff6961"}}>muebles y colchones</span> a un buen precio y con envios gratis.</HeroH1>
-        <HeroP>Presiona para mas información detallada de nuestras ventas en línea, ofrecemos armados y envios</HeroP>
+        <HeroH1>
+          Te brindamos la mejor calidad en{" "}
+          <span style={{ color: "#ff6961" }}>Muebles y Colchones</span> al mejor
+          precio y con <span style={{ color: "#77ecb6" }}>ENVIOS GRATIS</span>
+        </HeroH1>
+        <HeroP>
+          Para mas información detallada de nuestras ventas en línea, lo que busques consultanos y te
+          ofrecemos productos armados con envíos en toda Córdoba.
+        </HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"

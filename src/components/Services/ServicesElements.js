@@ -61,7 +61,7 @@ export const ServicesIcon = styled.img`
 `;
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #2f5;
+  color: #FF6961;
   margin-bottom: 80px;
 
   @media screen and (max-width: 480px) {
@@ -78,4 +78,19 @@ export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
   padding-bottom: 30px;
+`;
+
+export const CardContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f2229;
+  overflow: hidden;
+`;
+
+export const Separator = styled.span`
+  margin-left: 10px;
+  margin-right: 10px;
 `;

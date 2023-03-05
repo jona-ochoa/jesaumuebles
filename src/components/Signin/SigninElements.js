@@ -9,10 +9,7 @@ export const Container = styled.div`
     right: 0;
     z-index: 0;
     overflow: hidden;
-    background: linear-gradient(108deg,
-        rgba(221,2,10,7) 0%,        
-        rgba(245,245,245,1) 100%     
-    );
+    background: #FF6961 ;
 `
 
 export const FormWrap = styled.div`
@@ -50,7 +47,7 @@ export const FormContent = styled.div`
 `
 
 export const Form = styled.form`
-    background: #222;
+    background: #77ecb6;
     max-width: 600px;
     height: auto;
     width: 100%;
@@ -59,7 +56,7 @@ export const Form = styled.form`
     margin: auto;
     padding: 80px 32px;
     border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    box-shadow: 0 1px 30px rgba(0,0,0,0.9);
 
     @media screen and (max-width: 400px){
         padding: 32px 32px;
@@ -68,16 +65,17 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
-    color: #fff;
+    color: #000;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 800;
     text-align: center;
 `
 
 export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
-    color: #fff;
+    color: #000;
+    font-weight: 700;
 `
 
 export const FormInput = styled.input`
@@ -86,6 +84,7 @@ export const FormInput = styled.input`
     border: none;
     border-radius: 4px;
     outline: none;
+    font-weight: 500;
 `
 
 export const FormTextArea = styled.textarea`

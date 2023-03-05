@@ -6,6 +6,8 @@ import InfoSection from '../components/InfoSection';
 import { homeObjOne,homeObjTwo, homeObjThree } from '../components/InfoSection/data';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
+import ImageSlider from '../components/Slider/ImageSlider';
+import { SliderData } from '../components/Slider/SliderData';
 
 const Home = () => {
 
@@ -23,6 +25,7 @@ const Home = () => {
         <InfoSection {... homeObjTwo} />
         <Services />
         <InfoSection {... homeObjThree} />
+        <ImageSlider slides={SliderData} />
         <Footer />
     </>
   )

@@ -37,14 +37,14 @@ const SignIn = () => {
   return (
     <Container>
       <FormWrap>
-        <Icon to="/">jesauMuebles</Icon>
+        <Icon to="/">JESAUMUEBLES</Icon>
         <Form ref={form} onSubmit={sendEmail}>
-          <FormLabel>Nombre</FormLabel>
-          <FormInput type="text" name="user_name" />
-          <FormLabel>Email</FormLabel>
-          <FormInput type="email" name="user_email" />
-          <FormLabel>Mensaje</FormLabel>
-          <FormTextArea name="message" required rows={4} />
+          <FormLabel>Nombre:</FormLabel>
+          <FormInput type="text" name="user_name" placeholder="Example" />
+          <FormLabel>Email:</FormLabel>
+          <FormInput type="email" name="user_email" placeholder="example@email.com" />
+          <FormLabel>Mensaje:</FormLabel>
+          <FormTextArea name="message" required rows={4} placeholder="Ingresa aquí un mensaje..." />
           <FormInput type="file" name="user_file" aria-label="Archivo" />
           <FormInput type="submit" value="Enviar Mensaje" />
         </Form>

@@ -39,9 +39,11 @@ export const NavLogo = styled(LinkR)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  justify-content: center;
 
   :hover {
     color: #ff6;
+    
   }
 `;
 export const MobileIcon = styled.div`
@@ -100,8 +102,8 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 30px;
-  background: #ff6961;
+  border-radius: 10px;
+  background: #ff6;
   color: #010606;
   white-space: nowrap;
   padding: 10px 22px;
@@ -114,9 +116,9 @@ export const NavBtnLink = styled(LinkR)`
   text-decoration: none;
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-    border: 2px solid #fff;
+    background: #77ecb6;
+    color: #FFF;
+    border: 2px solid #010606;
   }
 `;
 
@@ -128,4 +130,5 @@ export const SPANLOGO = styled.span`
   line-height: 10px;
   font-weight: 400;
   justify-content: center;
+  font-family: 'Cedarville Cursive', cursive;
 `

@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toogle }) => {
             exact="true"
             offset={-80}
           >
-            About
+            Productos
           </SidebarLink>
           <SidebarLink
             to="discover"
@@ -38,7 +38,7 @@ const Sidebar = ({ isOpen, toogle }) => {
             exact="true"
             offset={-80}
           >
-            Discover
+            Descubrir
           </SidebarLink>
           <SidebarLink
             to="Services"
@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, toogle }) => {
             exact="true"
             offset={-80}
           >
-            Services
+            Servicios
           </SidebarLink>
           <SidebarLink
             to="signup"
@@ -60,7 +60,7 @@ const Sidebar = ({ isOpen, toogle }) => {
             exact="true"
             offset={-80}
           >
-            Sign Up
+            Nosotros
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
@@ -73,7 +73,7 @@ const Sidebar = ({ isOpen, toogle }) => {
             offset={-80}
             onClick={toogle}
           >
-            Sign In
+            Contacto
           </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
