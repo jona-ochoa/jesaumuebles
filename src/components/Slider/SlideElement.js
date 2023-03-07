@@ -78,3 +78,12 @@ export const Image = styled.img`
     max-height: 500px;
   }
 `;
+
+export const Title = styled.h2`
+  color: #ff6961;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+`
+
+

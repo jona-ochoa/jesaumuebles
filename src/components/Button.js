@@ -20,5 +20,6 @@ export const Button =styled(Link)`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#ff6' : '#000')};
         color: ${({dark}) => (dark ? '#010606' : '#ff6961')};
+        border: 3px solid white;
     }
 `

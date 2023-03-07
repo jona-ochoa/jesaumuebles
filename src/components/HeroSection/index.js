@@ -7,8 +7,6 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
 } from "./HeroElements";
 import { Button } from "../Button";
 
@@ -51,7 +49,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Nosotros {hover ? <ArrowForward /> : <ArrowRight />}
+            Nosotros
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

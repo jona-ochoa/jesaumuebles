@@ -79,30 +79,29 @@ width:100%;
 
 export const SocialMediaWrap = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 max-width: 1100px;
 margin: 40px auto 0 auto;
-@media screen and (max-width: 820px) {
-    flex-direction: column;
+text-align: center;
+@media screen and (max-width: 620px) {
+   flex-direction: column-reverse;
+   justify-content: center;
   }
 `
 
 export const SocialLogo = styled(LinkR)`
 color:#ff6961;
-justify-self: start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
-margin-bottom: 16px;
 font-weight: bold;
 text-decoration:none;
 `
 
 export const WebsiteRight = styled.small`
 color: #fff;
-margin-bottom: 16px;
 `
 
 export const SocialIcons = styled.div`

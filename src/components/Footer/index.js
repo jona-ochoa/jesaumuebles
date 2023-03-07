@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaInstagram,
-  FaLinkedin,
-  FaGithub,
-  FaWhatsapp,
-  FaFreeCodeCamp,
-} from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import {
@@ -34,37 +28,41 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinksItems>
-              <FooterLinkTitle to='/'>Servicios</FooterLinkTitle>
-              <FooterLink to='/signin'>Muebles</FooterLink>
-              <FooterLink to='/signin'>Colchones</FooterLink>
-              <FooterLink to='/signin'>Sillas Gamer</FooterLink>
-              <FooterLink to='/signin'>Electros</FooterLink>
+              <FooterLinkTitle to="/">Servicios</FooterLinkTitle>
+              <FooterLink to="/signin">Muebles</FooterLink>
+              <FooterLink to="/signin">Colchones</FooterLink>
+              <FooterLink to="/signin">Sillas Gamer</FooterLink>
+              <FooterLink to="/signin">Electros</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLinkTitle>Ciudades</FooterLinkTitle>
-              <FooterLink to='/signin'>Villa del Totoral</FooterLink>
-              <FooterLink to='/signin'>Dean Funes</FooterLink>
-              <FooterLink to='/signin'>Chalasea</FooterLink>
-              <FooterLink to='/signin'>Las Peñas</FooterLink>
+              <FooterLinkTitle>Marcas</FooterLinkTitle>
+              <FooterLink to="/signin">Muebles Orlandi</FooterLink>
+              <FooterLink to="/signin">ColchonesMaximo</FooterLink>
+              <FooterLink to="/signin">Colchones Gani</FooterLink>
+              <FooterLink to="/signin">Estant Muebles</FooterLink>
             </FooterLinksItems>
             <FooterLinksItems>
               <FooterLinkTitle>Contacto</FooterLinkTitle>
-              <FooterLink to='/signin'>Telefono: +54-3525-619061</FooterLink>
-              
-              <FooterLink to='/signin'>Email: jesaumuebles@gmail.com</FooterLink>
-              
-              <FooterLink to='/signin'>Soporte: soporte.jesau@gmail.com</FooterLink>
-              
+              <FooterLink to="/signin">Telefono: +54-3525-619061</FooterLink>
+
+              <FooterLink to="/signin">
+                Email: jesaumuebles@gmail.com
+              </FooterLink>
+
+              <FooterLink to="/signin">
+                Soporte: soporte.jesau@gmail.com
+              </FooterLink>
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              jesaumuebles
+              JesauMuebles
             </SocialLogo>
             <WebsiteRight>
-              © {new Date().getFullYear()} jesaumuebles
+              © {new Date().getFullYear()} JesauMuebles
             </WebsiteRight>
 
             <SocialIconsLink
@@ -84,35 +82,11 @@ const Footer = () => {
             </SocialIconsLink>
 
             <SocialIconsLink
-              href="//github.com/jona-ochoa"
-              target="_blank"
-              aria-label="GitHub"
-            >
-              <FaGithub />
-            </SocialIconsLink>
-
-            <SocialIconsLink
-              href="//www.linkedin.com/in/jonatan-ochoa-developer/"
-              target="_blank"
-              aria-label="Linkedin"
-            >
-              <FaLinkedin />
-            </SocialIconsLink>
-
-            <SocialIconsLink
               href="https://wa.me/543525619061?text=Hola%20Jonacode"
               target="_blank"
               aria-label="Whatsapp"
             >
               <FaWhatsapp />
-            </SocialIconsLink>
-
-            <SocialIconsLink
-              href="https://www.freecodecamp.org/certification/jona-ochoa/responsive-web-design"
-              target="_blank"
-              aria-label="FreeCodeCamp"
-            >
-              <FaFreeCodeCamp />
             </SocialIconsLink>
           </SocialMediaWrap>
         </SocialMedia>

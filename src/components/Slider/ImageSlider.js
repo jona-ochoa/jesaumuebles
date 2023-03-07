@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import { SliderData } from './SliderData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-import { Section, Image } from './SlideElement';
+import { 
+    Section, 
+    Image, 
+    Title 
+} from './SlideElement';
 
 const ImageSlider = ({slides}) => {
 
@@ -27,9 +31,14 @@ const ImageSlider = ({slides}) => {
     {SliderData.map((slide, index) => {
         return (
             <div className={index === current ? 'slide active' : 'slide'} key={index}>
-                {index === current && (<Image src={slide.image} alt="Muebles y Colchones" />)}
+                {index === current && (
+                    <div>
+                        <Title>{slide.title}</Title>
+                        <Image src={slide.image} alt="Muebles y Colchones" />
+                    </div>
+                )}
                 
-            </div>            
+            </div>          
         )
     })}
     </Section>
